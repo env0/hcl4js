@@ -27,7 +27,7 @@ async function initHLC4JS() {
 
 async function parse(filename, content) {
     const hcljs = await initHLC4JS();
-    return hcljs.parse(filename, content);
+    return JSON.parse(await hcljs.parse(filename, content));
 }
 
 module.exports = {parse}

@@ -1,0 +1,8 @@
+{
+  "name": "@env0/hcl4js",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "types": "index.d.ts",
+  "license": "MIT"
+}
